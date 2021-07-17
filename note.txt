@@ -1,0 +1,16 @@
+1. setup vironments and project 
+    + python3 -m venv venv_ha 
+    + source venv_ha/bin/activate
+
+    + install libraries: pip install scrapy (pip install -r requirements.txt )
+
+    + create project: scrapy startpoject project_name 
+        - cd ./project_name 
+    + create spider: scrapy genspider spider_name domain
+    
+    + run project: scrapy crawler spider_name
+
+ex:: https://www.doisongphapluat.com/phong-toa-them-2-phuong-voi-hon-85000-dan-thuoc-thanh-pho-thu-duc-a507405.html
+
++ get data: title, abstract, html_content, author, keywords, relative_url
++ save date to  excel, csv, txt
